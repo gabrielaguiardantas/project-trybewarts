@@ -10,43 +10,74 @@
 </head>
 
 <body>
-    <form id="evaluation-form">
+    <!--Começo do código do Stariel-->
+    <header class="header"><img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="logo-header">
+        <h1 id="trybewarts-header-title">Trybewarts</h1>
+
+        <form action="#" method="get" class="trybewarts-login">
+            <input type="email" name="email" placeholder="Email" id="emailHeader">
+            <input type="password" name="password" placeholder="Senha" id="passwordHeader">
+            <button type="submit" class="buttonSubmit">Entrar</button>
+        </form>
+    </header>
+
+    <main class="main-form">
+        <form action="#" method="GET" id="evaluation-form">
+            <div class="conteiner-first">
+                <input type="text" id="input-name" placeholder="Nome">
+                <input type="text" id="input-lastname" placeholder="Sobrenome">
+            </div>
+            <div class="conteiner-secont">
+            <input type="text" id="input-email" placeholder="Email">
+            <label for="house">Casa:</label>
+            <select id="house">
+               <option value="Gitnória"id="gitnoria-house">Gitnória</option>
+               <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+               <option value="Corvinode" id="corvinode-house">Corvinode</option>
+               <option value="Pytherina" id="pytherina-house">Pytherina</option>
+             </select>
+
+
+         </div> 
+        
+    <!--Final do código do Stariel-->
+
         <!--Requisito 12-->
-        <label for="familyProg" id="label-family">Qual sua família?</label>
+        <label for="label-family" id="label-family">Qual sua família?</label>
         <br>
-        <input type="radio" name="family" id="familyProg" value="Frontend">Frontend
+        <input type="radio" name="family" id="familyProg1" value="Frontend">Frontend
         <br>
-        <input type="radio" name="family" id="familyProg" value="Backend">Backend
+        <input type="radio" name="family" id="familyProg2" value="Backend">Backend
         <br>
-        <input type="radio" name="family" id="familyProg" value="FullStack">FullStack
+        <input type="radio" name="family" id="familyProg3" value="FullStack">FullStack
         <br>
         <br>
 
         <!--Requisito 13-->
-        <label for="learnContent" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
+        <label for="label-content" id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
         <br>
-        <input type="checkbox" name="" id="learnContent" class="subject" value="HoFs">HoFs
-        <input type="checkbox" name="" id="learnContent" class="subject" value="Jest">Jest
-        <input type="checkbox" name="" id="learnContent" class="subject" value="Promises">Promises
-        <input type="checkbox" name="" id="learnContent" class="subject" value="React">React
-        <input type="checkbox" name="" id="learnContent" class="subject" value="SQL">SQL
-        <input type="checkbox" name="" id="learnContent" class="subject" value="Python">Python
+        <input type="checkbox" name="learnContent" id="learnContent1" class="subject" value="HoFs">HoFs
+        <input type="checkbox" name="learnContent" id="learnContent2" class="subject" value="Jest">Jest
+        <input type="checkbox" name="learnContent" id="learnContent3" class="subject" value="Promises">Promises
+        <input type="checkbox" name="learnContent" id="learnContent4" class="subject" value="React">React
+        <input type="checkbox" name="learnContent" id="learnContent5" class="subject" value="SQL">SQL
+        <input type="checkbox" name="learnContent" id="learnContent6" class="subject" value="Python">Python
 
         <br>
         <br>
 
         <!--Requisito 14-->
-        <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
-        <input type="radio" name="rate" id="" value="1">1
-        <input type="radio" name="rate" id="" value="2">2
-        <input type="radio" name="rate" id="" value="3">3
-        <input type="radio" name="rate" id="" value="4">4
-        <input type="radio" name="rate" id="" value="5">5
-        <input type="radio" name="rate" id="" value="6">6
-        <input type="radio" name="rate" id="" value="7">7
-        <input type="radio" name="rate" id="" value="8">8
-        <input type="radio" name="rate" id="" value="9">9
-        <input type="radio" name="rate" id="" value="10">10
+        <label for="label-rate" id="label-rate">Como você avalia a Trybewarts?</label>
+        <input type="radio" name="rate" id="label-rate1" value="1" class="label-rate">1
+        <input type="radio" name="rate" id="label-rate2" value="2" class="label-rate">2
+        <input type="radio" name="rate" id="label-rate3" value="3" class="label-rate">3
+        <input type="radio" name="rate" id="label-rate4" value="4" class="label-rate">4
+        <input type="radio" name="rate" id="label-rate5" value="5" class="label-rate">5
+        <input type="radio" name="rate" id="label-rate6" value="6" class="label-rate">6
+        <input type="radio" name="rate" id="label-rate7" value="7" class="label-rate">7
+        <input type="radio" name="rate" id="label-rate8" value="8" class="label-rate">8
+        <input type="radio" name="rate" id="label-rate9" value="9" class="label-rate">9
+        <input type="radio" name="rate" id="label-rate10" value="10" class="label-rate">10
 
 
 
@@ -78,6 +109,8 @@
         <footer>Direitos reservados à Trybewarts©</footer>
 
     </form>
+    <img src="images/trybewarts-colored.svg" alt="logo_trybe" id="trybewarts-forms-logo">
+</main>
 
     <!--Requisito 21-->
     <form>
@@ -110,44 +143,3 @@
 </body>
 </body>
 
-=======
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
-</head>
-<body>
-    <header class="header"><img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="logo-header">
-        <h1 id="trybewarts-header-title">Trybewarts</h1>
-
-        <form action="#" method="get" class="trybewarts-login">
-            <input type="email" name="email" placeholder="Email" id="emailHeader">
-            <input type="password" name="password" placeholder="Senha" id="passwordHeader">
-            <button type="submit" class="buttonSubmit">Entrar</button>
-        </form>
-    </header>
-
-    <main class="main-form">
-        <form action="#" method="GET" id="evaluation-form">
-            <div class="conteiner-first">
-                <input type="text" id="input-name" placeholder="Nome">
-                <input type="text" id="input-lastname" placeholder="Sobrenome">
-            </div>
-            <div class="conteiner-secont">
-            <input type="text" id="input-email" placeholder="Email">
-            <label for="house">Casa:</label>
-            <select id="house">
-               <option value="Gitnória"id="gitnoria-house">Gitnória</option>
-               <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-               <option value="Corvinode" id="corvinode-house">Corvinode</option>
-               <option value="Pytherina" id="pytherina-house">Pytherina</option>
-             </select>
-
-
-         </div> 
-        </form>
-        <img src="images/trybewarts-colored.svg" alt="logo_trybe" id="trybewarts-forms-logo">
-    </main>
-    
-    <script src="script.js"></script>
-</body>
-</html>
->>>>>>> aa4052ad63c9b4a55fc01a75f305ebf4acfe6ce7
