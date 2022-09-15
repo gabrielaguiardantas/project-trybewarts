@@ -28,3 +28,14 @@ textArea.addEventListener('input', (e) => {
   const currentLength = target.value.length;
   counter.innerHTML = `${maxLength - currentLength}`;
 });
+// requisito1 - validar se o possuem email e senha corretos
+function validateForm() {
+  if (email.value === 'tryber@teste.com' && password.value === '123456') {
+    alert('Olá, Tryber!');
+  } else {
+    alert('Email ou senha inválidos.');
+  }
+}
+
+button.addEventListener('click', validateForm);
+>>>>>>> aa4052ad63c9b4a55fc01a75f305ebf4acfe6ce7
