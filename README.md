@@ -1,4 +1,9 @@
-# :construction: README customizado em construção ! :construction:
+# Projeto Trybewarts #
+
+Quarto projeto do curso de desenvolvimento Web da Trybe. Primeiro projeto em dupla (Stariel Isaacc). Neste projeto desenvolvemos um formulário com campo de login e senha. Utilizamos HTML, CSS e Javascript para execução do mesmo. 
+
+## Demonstração: ##
+
 <!-- Olá, Tryber!
 Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
 
