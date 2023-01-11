@@ -2,17 +2,20 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Gill Sans, Gill Sans MT, Calibri, Trebuchet MS, sans-serif;
 }
 
 .header {
   background-color: rgb(50, 167, 145);
   display: flex;
   justify-content: space-between;
+  margin-bottom: 15px;
 }
 
 .trybewarts-login {
   display: flex;
   align-items: center;
+  border-radius: px;
 }
 
 .main-form , #evaluation-form {

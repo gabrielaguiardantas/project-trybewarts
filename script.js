@@ -100,4 +100,5 @@ function retrieveFormInfo() {
   li7on();
   document.getElementsByTagName('main')[0].style.display = 'none';
 }
+
 submitBtn.addEventListener('click', retrieveFormInfo);
