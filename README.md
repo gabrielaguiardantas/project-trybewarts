@@ -8,3 +8,4 @@ https://user-images.githubusercontent.com/110852595/211825688-5af30e36-fde9-4362
 
 ## Features implementadas: ##
 
+![features-project3](https://github.com/gabrielaguiardantas/project-trybewarts/assets/110852595/f1bc4adf-db4e-4b83-9ba7-9d1bd511738e)
